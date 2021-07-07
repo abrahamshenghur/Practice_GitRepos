@@ -23,9 +23,11 @@ class ViewController: UIViewController {
         
         let movie1 = Movie(title: "TopGun")
         let movie2 = Movie(title: "iMac")
+        let movie3 = Movie(title: "Macbook")
         movies.append(movie1)
         movies.append(movie2)
-        
+        movies.append(movie3)
+
         configureTableView()
 
     }
