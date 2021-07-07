@@ -45,6 +45,10 @@ class ViewController: UIViewController {
     func myFunctiion() {
         print("Macbook code")
     }
+    
+    func hisFunction() {
+        print("iMac code")
+    }
 
 }
 
