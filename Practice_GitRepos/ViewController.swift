@@ -60,6 +60,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         movie = movies[indexPath.row]
 
         cell.titleLabel.text = movie.title
+        cell.backgroundColor = .gray
         
         return cell
     }
