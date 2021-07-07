@@ -41,6 +41,10 @@ class ViewController: UIViewController {
         tableView.register(MovieCell.self, forCellReuseIdentifier: Cells.movieCell)
         tableView.pin(to: view)
     }
+    
+    func myFunctiion() {
+        print("Macbook code")
+    }
 
 }
 
